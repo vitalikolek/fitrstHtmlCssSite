@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* Header start */
+.header {
+    background-color: #007765;
+    position: sticky;
+    top: 0;
+}
+
+.headerWrapper {
+    height: 84px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', normal;
+}
+
+.nav {
+    color: white;
+}
+
+.navLink {
+    color: white;
+    text-transform:lowercase;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 24px;
+}
+/* Header end */
+
+/* Intro start */
+.intro {
+    background: url('../img/intro.jpg');
+}
+
+.introContent {
+    height: 403px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.introTitle {
+    font-weight: 500;
+    font-size: 72px;
+}
+/* Intro end */
+
+/* The problem start */
+.theProblemContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.theProblemHead {
+    margin-top: 48px;
+    font-weight: 500;
+    font-size: 64px;
+    color: #007765;
+}
+
+.theProblemP {
+    font-weight: 400;
+    font-size: 32px;
+}
+/* The problem end */
+
+/* Hero start */
+.hero {
+    background: url('../img/hero.jpg');
+}
+
+.heroWrapper {
+    height: 483px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroTxt {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center; 
+}
+/* Hero end */
+
+/* PPC start */
+.PPC {
+    height: 480px;
+}
+
+.PPCtitle {
+    font-weight: 500;
+    font-size: 64px;
+    color: #007765;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.PPClogo {
+    width: 115px;
+    height: 115px;
+    float: left;
+    margin-right: 48px;
+    margin-top: 16px;
+}
+
+.PPCtxt {
+    font-weight: 400;
+    font-size: 32px;
+}
+/* PPC end */
+
+/* The team start */
+.theTeam {
+    background-color: #eee;
+}
+
+.theTeamTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+    font-weight: 500;
+    font-size: 64px;
+    text-align: center;
+    color: #007765;
+    top: 58px;
+}
+
+.direction {
+    padding: 32px 0;
+}
+
+.directionInner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 32px;
+}
+
+.directionImg {
+    display: block;
+    margin: 0 auto; 
+}
+
+.name {
+    font-weight: 700;
+    font-size: 24px;
+    color: #007765;
+    padding-top: 12px;
+    text-align: center;
+}
+
+.personPosition {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 0;
+    text-align: center;
+}
+/* The team end */
+
+/* Footer start */
+.theFooter{
+    background: #333333;
+    height: 132px;
+}
+
+.footerContent {
+    width: 540px;
+    margin: 0 auto;
+    padding: 34px;
+}
+
+.footerTitle {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+/* Footer end */
